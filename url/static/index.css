@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+body {
+    min-height: 100vh;
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+    color: #111;
+    background: black;
+}
+main {
+    max-width: 720px;
+    width: 100%;
+    border: 2.5px solid #330867;
+    border-radius: 15.5px;
+    box-shadow: 0 10px 20px rgb(17 17 17 / 13%), 0 5px 5px rgb(17 17 17 / 25%);
+    background: black;
+}
+
+h1 {
+    padding: 1rem;
+    color: white;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-family: cursive;
+    user-select: none;
+}
+input,
+button {
+  font-family: inherit;
+  line-height: inherit;
+  color: inherit;
+  border: 0;
+  padding: 1rem;
+}
+form{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;}
+
+input {
+    width: 52vh;
+    border: 2px solid green;
+    border-radius: 16px;
+    background: transparent;
+    color: whitesmoke;
+    outline: none;
+    margin-left: 18vh;
+}
+
+.buttons {
+  display: flex;
+}
+button {
+    cursor: pointer;
+    flex: 1;
+    background-color: transparent;
+    color: white;
+    border: 1px solid;
+    padding: 9px;
+    margin: 0px 0px 0px 45px;
+    border-radius: 13px;
+    width: 11vh;
+}
+button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+h2{
+display: flex;
+    animation-name: auto;
+    justify-content: center;
+    color: antiquewhite;
+    align-items: center;
+}
+section {
+    min-height: 120px;
+    text-align: center;
+    background-color: black;
+}
