@@ -3,4 +3,4 @@ hello everyone today I have created a link shortener app with Django I hope you 
 
 Follow me on linkedin https://www.linkedin.com/in/pawan941394/
 
-Follow me on Instagram @pawan941394
+Follow me on Instagram https://www.instagram.com/pawan941394/
